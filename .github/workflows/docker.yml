@@ -31,7 +31,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: maxatslega/github-action-docker-nodejs-test
+          tags: docker-registry.atslega.network/maxatslega/github-action-docker-nodejs-test:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
