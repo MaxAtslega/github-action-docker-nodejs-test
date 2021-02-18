@@ -30,7 +30,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ushamandya/simplewhale:latest
+          tags: maxatslega/github-action-docker-nodejs-test
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
