@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function(req, res, next) {
-    res.send('Hello Jupiter!');
+    res.send('Hello Mars!');
 });
 
 
