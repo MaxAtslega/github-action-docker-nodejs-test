@@ -16,7 +16,7 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v1
         with:
-          registry: docker-registry.atslega.network
+          registry: pcr.atslega.de
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
